@@ -5,12 +5,16 @@ go 1.15
 require (
 	github.com/aws/aws-sdk-go v1.35.20
 	github.com/blang/semver v3.5.1+incompatible
+	github.com/emicklei/go-restful v2.9.6+incompatible // indirect
 	github.com/go-logr/logr v0.3.0
 	github.com/golang/mock v1.4.4
-	github.com/onsi/ginkgo v1.14.1
+	github.com/nxadm/tail v1.4.8 // indirect
+	github.com/onsi/ginkgo v1.15.0
 	github.com/onsi/gomega v1.10.2
 	github.com/openshift/api v0.0.0-20201216151826-78a19e96f9eb
 	github.com/openshift/machine-api-operator v0.2.1-0.20210104142355-8e6ae0acdfcf
+	golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c // indirect
+	golang.org/x/tools v0.1.0 // indirect
 
 	// kube 1.18
 	k8s.io/api v0.20.0
